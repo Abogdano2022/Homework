@@ -36,6 +36,29 @@ public class Main {
             float breakfastInKg = breakfast/1000f;
             System.out.println("Вес спорт-завтрака в килограммах " + breakfastInKg + " кг");
 
+            int neededLostWeight = 7000;
+            int weightLostPerDay = 250;
+            int daysQuantity250 = neededLostWeight/weightLostPerDay;
+            System.out.println("Если худеет на 250 г - количество дней " + daysQuantity250);
+            int weightLostPerDayPlus = 500;
+            int daysQuantity500 = neededLostWeight/weightLostPerDayPlus;
+            System.out.println("Если худеет на 500 г - количество дней " + daysQuantity500);
+
+            int mariaSalary = 67760;
+            float percent = 0.1f;
+            var mariaSalary10 = mariaSalary*percent;
+            var mariaSalaryIncrease = mariaSalary + mariaSalary10;
+            System.out.println("Маша теперь получает " + mariaSalaryIncrease);
+            int denisSalary = 83690;
+            var denisSalary10 = denisSalary*percent;
+            var denisSalaryIncrease = denisSalary+denisSalary10;
+            int christinaSalary = 76230;
+            var christinaSalary10 = christinaSalary*percent;
+            var christinaSalaryIncrease = christinaSalary + christinaSalary10;
+            System.out.println("Денис теперь получает " + denisSalaryIncrease);
+            System.out.println("Кристина теперь получает " + christinaSalaryIncrease);
+
+
 
 
 
