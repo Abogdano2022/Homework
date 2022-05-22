@@ -48,15 +48,27 @@ public class Main {
             float percent = 0.1f;
             var mariaSalary10 = mariaSalary*percent;
             var mariaSalaryIncrease = mariaSalary + mariaSalary10;
+            int mariaSalaryAnnual = mariaSalary*12;
+            float mariaSalaryAnnualNew = mariaSalaryIncrease*12;
+            float mariaSalaryDifference = mariaSalaryAnnualNew - mariaSalaryAnnual;
             System.out.println("Маша теперь получает " + mariaSalaryIncrease);
+            System.out.println ("Годовой доход вырос на " + mariaSalaryDifference);
             int denisSalary = 83690;
             var denisSalary10 = denisSalary*percent;
             var denisSalaryIncrease = denisSalary+denisSalary10;
+            var denisSalaryAnnual = denisSalary*12;
+            float denisSalaryAnnualNew = denisSalaryIncrease*12;
+            float denisSalaryDifference = denisSalaryAnnualNew - denisSalaryAnnual;
             int christinaSalary = 76230;
             var christinaSalary10 = christinaSalary*percent;
             var christinaSalaryIncrease = christinaSalary + christinaSalary10;
+            int christinaSalaryAnnual = christinaSalary*12;
+            float christinaSalaryAnnualNew = christinaSalaryIncrease*12;
+            float christinaSalaryDifference = christinaSalaryAnnualNew - christinaSalaryAnnual;
             System.out.println("Денис теперь получает " + denisSalaryIncrease);
+            System.out.println ("Доход вырос на " + denisSalaryDifference);
             System.out.println("Кристина теперь получает " + christinaSalaryIncrease);
+            System.out.println ("Годовой доход вырос на " + christinaSalaryDifference);
 
 
 
